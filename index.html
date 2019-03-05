@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>BMI Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700,900" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+</head>
+
+<body>
+    <div class="bg">
+        <img class="logo" src="images/logo.png" alt="logo-bmi-calculator">
+
+        <h1>Mide tu grasa corporal</h1>
+
+
+
+        <div class="content">
+            <p>Escribe tus datos que te daran el resultado real de lo</br>
+                que esta pasando con tu cuerpo. Y toma las medidas que te aconsejamos en caso de necesitarlo.
+            </p>
+            <div class="container">
+                <div class="changemeasurement">
+                    <label></label>
+                    <input type="submit" value="Change to Inches/lb" id="kgmchanger">
+                </div>
+
+                <div class="bmiformarea">
+                    <form id="bmiform">
+                        <div class="column1">
+                        <div class="formarea">
+                            <label id="weightlabel">Your Weight in Kg</label><br>
+                            <input type="number" name="weight" id="weightform" placeholder="0" step="0.01">
+                        </div>
+
+                        <div class="formarea">
+                            <label id="heightlabel">Your Height in M</label><br>
+                            <input type="number" name="height" id="heightform" placeholder="0" step="0.01">
+                        </div>
+                    </div>
+                        <div class="submit-section">
+                            <br><input type="submit" value="Submit" id="numbersubmit">
+                        </div>
+                    </form>
+                </div>
+                <div class ="result">
+                    <h2 id="resultsTitle"></h2>
+                    <h3 id="result"></h3>
+                    <p id="resultsText"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="index.js" charset="8-utf"></script>
+</body>
+
+</html>

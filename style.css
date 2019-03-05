@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+}
+body, html{
+    height: 100%;
+    margin:0;
+    padding:0;
+    font-family: 'Montserrat', sans-serif;
+}
+h1 {
+    margin-top:50px;
+    color:#5beaff;
+}
+
+p, 
+label,
+#kgmchanger,
+h2,
+h3 {
+    color: white;
+}
+
+.logo{
+    width: 300px;
+    height:50px;
+    margin-left: 50px;
+}
+.bg {
+
+    background-image: url("images/fondo.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+.container {
+    text-align: left;
+    margin-left: 70px;
+}
+
+
+
+.changemeasurement{
+    margin:20px 0;
+}
+
+.content, h1{
+    text-align: center;
+}
+
+input {
+    height: 50px;
+    width: 250px;
+    border-radius: 20px;
+    outline:none;
+}
+
+#kgmchanger{
+    background-color:transparent;
+    border: 2px solid white;
+}
+
+.column1{
+    float:left;
+    width: 50%;
+}
+.formarea input {
+    height: 40px;
+    width: 80px;
+    text-align: center;
+}
+
+.submit-section{
+  float: right;
+  width:45%;
+  margin-right: 30px;
+  margin-bottom: 10px;
+  clear: right;
+  
+}
+
+#numbersubmit{
+    font-size: 40px;
+    background-image: linear-gradient(to right, #5beaff 0%, #b0dbed 51%, #ffc5d9 100%);
+    border:0px;
+}
+
+.result{
+    float:right;
+    clear:left;
+    width:45%;
+}
